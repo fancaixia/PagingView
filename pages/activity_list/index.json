@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "PagingView": "/components/PagingView/index"
+  },
+  "navigationBarTitleText": "活动管理"
+}

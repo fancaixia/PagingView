@@ -1,0 +1,27 @@
+<!-- tabBar引用 -->
+<view >
+  <PagingView id="PagingView" tags = "{{tags}}" bind:fnClick="fnclick" selectedone = "{{selectedone}}">
+  </PagingView>
+</view>
+
+<view class="page-body">
+  <view class="page-section">
+
+    <view class="activity_list_box" wx:if="{{selectedone == 1}}">
+       进行中活动
+    </view>
+
+   <view class="activity_list_box" wx:if="{{selectedone == 2}}">
+      已结束活动
+    </view>
+
+     <view class="activity_list_box" wx:if="{{selectedone == 3}}">
+       待评价活动
+    </view>
+
+  </view>
+</view>
+
+
+
+

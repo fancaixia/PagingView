@@ -1,0 +1,10 @@
+<view class="header">
+<scroll-view class="scroll-view_H" scroll-x="{{true}}">
+
+       <view class="list">
+            <view wx:for="{{tags}}" wx:key="{{index}}" style="width:{{100/(tags.length)}}%"  bindtap='fnclick' data-select="{{item.id}}" class="{{selectedone === item.id?'blue':''}}">{{item.name}}</view>
+            
+        </view>
+  </scroll-view>
+  <view  class="cur" style="left:{{(100/2/(tags.length))*(selectedone+(selectedone-1))}}%"></view>
+ </view>
