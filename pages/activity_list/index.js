@@ -9,30 +9,19 @@ Page({
   },
   onLoad(){
 
-
   },
-  onShow(){
-  
-  },
-
-  tap(e) {
-
-  },
-  // 导航条鼠标跟随
+  //鼠标跟随
   fnclick(e) {
-    // 根据类型渲染对应数据
     const ev = e.detail;
-
-    // const {  } = this.data;
     this.setData({
       selectedone: ev.currentTarget.dataset.select
     })
     if (ev.currentTarget.dataset.select == 1) {
-
+        console.log('点击进行中回调')
     } else if (ev.currentTarget.dataset.select == 2) {
-
+        console.log('点击已结束回调')
     }else{
-    
+        console.log('点击待评价回调')
     }
 
   },
