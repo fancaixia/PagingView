@@ -151,8 +151,3 @@ color: #999;
   transition: .5s all;
 }
 ```
-
-### 如果这篇文章对你有帮助，请帮忙扫描二维码，或微信搜索小程序(幼教学园)，帮忙点击页面，感谢
-![https://github.com/fancaixia/PagingView/blob/master/pic/youjiaoxueyuan.png](https://github.com/fancaixia/PagingView/blob/master/pic/youjiaoxueyuan.png)
-
-
